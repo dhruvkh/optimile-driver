@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #16a34a;
+  --color-action: #ea580c;
+  --color-alert: #dc2626;
+  --color-info: #2563eb;
+  --color-gold: #d97706;
+  --color-dark: #0f172a;
+  --color-light: #f1f5f9;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+/* Global Button Styles */
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Utility for Indian Currency Format */
+.currency-inr::before {
+  content: "₹";
+}
+
