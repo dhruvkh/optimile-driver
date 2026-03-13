@@ -7,6 +7,8 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', 'VITE_');
   return {
     plugins: [react(), tailwindcss()],
+    // Keep Vite cache outside node_modules so dev server works even if node_modules is root-owned.
+    cacheDir: '.vite',
     define: {
       'import.meta.env.VITE_GEMINI_API_KEY': JSON.stringify(env.VITE_GEMINI_API_KEY),
     },
