@@ -98,9 +98,9 @@ export const LoginScreen = () => {
       {/* Logo Section */}
       <div className="flex-1 flex flex-col items-center justify-center mt-12">
         <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-2xl shadow-blue-900/50 transform rotate-3 overflow-hidden">
-          <img src={easyLaneLogo} alt="EasyLane logistics logo" className="w-full h-full object-cover" />
+          <img src={easyLaneLogo} alt="Easylane logistics logo" className="w-full h-full object-cover" />
         </div>
-        <h1 className="text-4xl font-black text-white text-center tracking-tight">EasyLane logistics</h1>
+        <h1 className="text-4xl font-black text-white text-center tracking-tight">Easylane logistics</h1>
         <p className="text-blue-200 mt-2 font-medium tracking-wide uppercase text-sm">Driver Partner App</p>
       </div>
 

@@ -70,9 +70,9 @@ export const OnboardingScreen = () => {
       <div className="min-h-screen bg-white p-6 flex flex-col justify-between">
         <div className="mt-12">
           <div className="w-20 h-20 rounded-2xl flex items-center justify-center mb-8 shadow-xl shadow-blue-200 overflow-hidden">
-            <img src={easyLaneLogo} alt="EasyLane logistics logo" className="w-full h-full object-cover" />
+            <img src={easyLaneLogo} alt="Easylane logistics logo" className="w-full h-full object-cover" />
           </div>
-          <h1 className="text-3xl font-black text-gray-900 mb-2">Welcome to EasyLane logistics</h1>
+          <h1 className="text-3xl font-black text-gray-900 mb-2">Welcome to Easylane logistics</h1>
           <p className="text-gray-500 text-lg">Select your preferred language to continue.</p>
         </div>
 
