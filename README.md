@@ -1,4 +1,4 @@
-# EasyLane logistics Driver
+# Optimile Driver
 
 A mobile-first web application designed for Indian truck drivers. Features include trip management, real-time navigation, leaderboards, issue reporting, offline capabilities, and multi-language support.
 

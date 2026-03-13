@@ -1,5 +1,5 @@
 {
-  "name": "EasyLane logistics Driver",
+  "name": "Optimile Driver",
   "description": "Mobile-first web application for Indian truck drivers featuring color-coded UI, offline capabilities, and trip management.",
   "requestFramePermissions": ["camera", "geolocation"]
 }
